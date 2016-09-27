@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simpImg"
+        fresco:placeholderImage="@drawable/ic_launcher"
+        android:layout_width="160dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_item_normal"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="25dp"
+        android:text="新闻内容"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+</LinearLayout>

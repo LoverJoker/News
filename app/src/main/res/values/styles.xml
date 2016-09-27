@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--自定义弹窗加载样式-->
+    <style name="commomDialog">
+        <!--设置窗口半透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--设置窗口无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--设置是否悬当前窗口-->
+        <item name="android:windowIsFloating">true</item>
+        <!--设置弹窗样式-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--覆盖原布局-->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>
